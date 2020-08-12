@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class User {
 
-    private Integer userId;
+    private int userId;
 
     private String firstName;
 

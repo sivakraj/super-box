@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class File {
+public class UserFile {
 
-    private Integer fileId;
+    private int fileId;
 
     private String fileName;
 
@@ -19,7 +19,7 @@ public class File {
 
     private String fileSize;
 
-    private Integer userId;
+    private int userId;
 
     private byte[] fileData;
 

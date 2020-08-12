@@ -9,14 +9,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Note {
+public class UserNote {
 
-    private Integer noteId;
+    private int noteId;
 
     private String noteTitle;
 
     private String noteDescription;
 
-    private Integer userId;
+    private int userId;
 
 }
