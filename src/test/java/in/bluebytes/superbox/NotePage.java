@@ -29,11 +29,4 @@ public class NotePage {
         this.noteSubmitButton.click();
     }
 
-    public void updateNote(String noteId, String noteTitle, String noteDescription) {
-        this.noteIdField.sendKeys(noteId);
-        this.noteTitleField.sendKeys(noteTitle);
-        this.noteDescriptionField.sendKeys(noteDescription);
-        this.noteSubmitButton.click();
-    }
-
 }
